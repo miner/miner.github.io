@@ -9,8 +9,7 @@
 title: Conjobble
 email: steveminer@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-This is Steve Miner's blog about Clojure programming.  Clojure is modern *LISP* for the Java VM.
-
+"This is Steve Miner's blog about Clojure programming.  Clojure is modern *LISP* for the Java VM."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://miner.github.io" # the base hostname & protocol for your site
 twitter_username: miner
