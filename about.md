@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: About Conjobble
 permalink: /about/
 ---
-
-## About Conjobble
 
 **Conjobble** is a blog about Clojure programming
 
