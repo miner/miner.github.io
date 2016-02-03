@@ -18,5 +18,5 @@ how Clojure might help.
 
 
 
-![Pearl Fryar](../miner-clp-fryar.png "Challenges for Logic Programming")
+![Pearl Fryar]({{ site.url }}/assets/miner-clp-fryar.png "Challenges for Logic Programming")
 
