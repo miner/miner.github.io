@@ -4,12 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+## About Conjobble
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+**Conjobble** is a blog about Clojure programming
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+*conjobble* - to chat together; 'to concert, to settle, to discuss: a low cant word' -
+_Samuel Johnson_
+
+*conj* - a Clojure function to conjoin an item to a collection.
+
+
+## Steve Miner
+
+Twitter: [@miner](https://twitter.com/miner)
+
+Github: [miner](https://github.com/miner)
+
+Bio and Talks: [Steve Miner](http://velisco.com/steve-miner.html)
