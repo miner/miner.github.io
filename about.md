@@ -11,6 +11,17 @@ _Samuel Johnson_
 
 *conj* - a Clojure function to conjoin an item to a collection.
 
+## Clojure links
+
+Clojure is modern *LISP* for the Java VM.
+
+* [Clojure.org](http://clojure.org)
+* [Planet Clojure](http://planet.clojure.in/)
+* [ClojureDocs](http://clojuredocs.org)
+* [Clojure for the Brave and True](http://www.braveclojure.com)
+* [Grimoire](http://conj.io)
+* [Cross CLJ](http://crossclj.info)
+* [Clojars](http://clojars.org)
 
 ## Steve Miner
 
