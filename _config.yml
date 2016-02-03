@@ -16,3 +16,12 @@ github_username: miner
 
 # Build settings
 markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
