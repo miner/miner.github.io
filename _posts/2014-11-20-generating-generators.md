@@ -3,7 +3,7 @@ title: Generating Generators
 layout: post
 ---
 
-## Presented at Clojure/Conj 2104
+## Presented at Clojure/conj 2014
 
 Property-based testing provides good test coverage and automatic shrinking of failure
 cases. However, coding universal properties with the *test.check* generator combinators is
