@@ -18,7 +18,3 @@ how Clojure might help.
 
 [slides](https://speakerdeck.com/miner/challenges-for-logic-programming)
 
-
-
-![Pearl Fryar]({{ site.url }}/assets/miner-clp-fryar.png "Challenges for Logic Programming")
-
