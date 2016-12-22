@@ -5,6 +5,8 @@ layout: post
 
 ## Presented at Clojure/West 2013
 
+![Data-Readers](/images/data-readers-guide.png "Data-Reader's Guide")
+
 Don't panic if you're unsure about picking up data-readers. It turns out that tagged
 literals are mostly harmless. Much as Douglas Adams produced "The Hitchhicker's Guide"
 material in multiple forms, a Clojure programmer can assign data-readers to process tagged

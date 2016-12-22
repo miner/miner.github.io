@@ -5,6 +5,8 @@ layout: post
 
 ## Presented at Clojure/conj, December 2016
 
+![Juggling](/images/jugpat.png "Juggling Patterns and Programs")
+
 The art of juggling has fascinated people since the days of ancient Egypt. In this talk, we
 posit that juggling theory can inform software development. We start with the mathematical
 insights of Claude Shannon, renowned as the father of Information Theory. After introducing

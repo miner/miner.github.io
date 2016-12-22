@@ -5,6 +5,8 @@ layout: post
 
 ## Presented at Clojure/Conj 2012
 
+![Challenges](/images/clp-fryar.png "Challenges")
+
 The core.logic library (a port of miniKANREN) has sparked an interest in logic programming
 among Clojure users. Back in the '80s, logic programming inspired the Japanese Fifth
 Generation Computer Systems Project, which was poised to leap past the rest of the world,
