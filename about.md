@@ -12,11 +12,10 @@ settle; to discuss.  A low cant word.
 > What would a body think of a minister that should *conjobble* matters of state with
 tumblers, and confer politicks with tinkers?
 
--- [Samuel Johnson][citation]
+-- [Samuel Johnson][1]
 
-[citation]: http://johnsonsdictionaryonline.com/?page_id=7070&i=448. "Page View, Page 448. A
-Dictionary of the English Language: A Digital Edition of the 1755 Classic by _Samuel
-Johnson_. Edited by Brandi Besalke. Last modified: December 6, 2012."
+[1]: http://johnsonsdictionaryonline.com/?page_id=7070&i=448 "Page View, Page 448. A
+Dictionary of the English Language: A Digital Edition of the 1755 Classic by _Samuel Johnson_. Edited by Brandi Besalke. Last modified: December 6, 2012."
 
 *conj* - a Clojure function to conjoin an item to a collection.
 
