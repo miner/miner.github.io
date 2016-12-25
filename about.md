@@ -6,7 +6,7 @@ permalink: /about/
 
 **Conjobble** is a blog about Clojure programming
 
-To **conjobble** *v.a.* [from *con*, together, and *jobbernol*, the head.]  To concert; to
+To **conjobble** *v.a.* {from *con*, together, and *jobbernol*, the head.}  To concert; to
 settle; to discuss.  A low cant word.
 
 > What would a body think of a minister that should *conjobble* matters of state with
