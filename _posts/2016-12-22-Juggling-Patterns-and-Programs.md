@@ -13,7 +13,7 @@ insights of Claude Shannon, renowned as the father of Information Theory. After 
 “siteswap” notation, we use Clojure to visualize juggling patterns. Finally, we review some
 interesing results in neuroscience regarding juggling. 
 
-Rastelli project: *coming soon to GitHub*
+[Rastelli project](https://github.com/miner/rastelli)
 
 [slides](https://speakerdeck.com/miner/juggling-patterns-and-programs)
 
