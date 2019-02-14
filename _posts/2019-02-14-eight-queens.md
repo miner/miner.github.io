@@ -212,7 +212,7 @@ Execution time from [Criterium][4] for the Eight Queens puzzle benchmark on my o
 
 -----
 
-You can find my [Queens][6] project on GitHub here:
+You can find my [Queens][6] project on GitHub.
 
 [6]: https://github.com/miner/queens
 
