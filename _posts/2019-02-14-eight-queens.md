@@ -154,7 +154,7 @@ that it shows a pretty good performance improvement.  There's a lot of code to h
 twiddling along the lines of the Richards approach.  I'm basically encoding the Richards
 bookkeeping into a single long and shifting the bits as necessary.  (If you're thinking
 *this guy should just give up and use C*, you're probably right!)  I'm limiting my solutions
-to dimensions less than 14, so I can fit all the bookkeeping bits in one long.  I'm not
+to dimensions less than 15, so I can fit all the bookkeeping bits in one long.  I'm not
 going to explain all the details.  Tweet [@miner][5] if you have questions.  Suffice it to
 say, it's roughly twice as fast as my previous `queens` solution.
 
