@@ -218,3 +218,7 @@ You can find my [Queens][6] project on GitHub.
 
 
 
+*Update*: I added another implementation using Tarantella and blogged about it as
+ [Tarantella Queens][7].
+
+[7]: http://conjobble.velisco.com/2019/07/30/tarantella-queens.html
