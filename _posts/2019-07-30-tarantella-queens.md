@@ -4,12 +4,14 @@ layout: post
 --- 
 
 Mark Engelberg recently announced an update to his [Tarantella][1] library for Clojure.
-Tarantella is an implementation of Knuth's Dancing Links algorithm for solving
+Tarantella is an implementation of Knuth's [Dancing Links][7] algorithm for solving
 [exact cover][2] problems.  Mark gave an excellent talk at the 2017 Clojure Conj entitled
-["Solving Problems Declaritively"][3] which explained the algorithm and demonstrated how
+["Solving Problems Declaratively"][3] which explains the algorithm and demonstrates how
 Tarantella works.
 
 [1]: https://github.com/Engelberg/tarantella
+
+[7]: https://en.wikipedia.org/wiki/Dancing_Links
 
 [2]: https://en.wikipedia.org/wiki/Exact_cover
 
@@ -36,9 +38,9 @@ possible values for each diagonal.  We have to designate each constraint as a se
 column.  That makes a total of `6N-2` columns.  It's convenient to encode X as the first N
 columns (`0` to `N-1`), and Y as the next N columns (`N` to `2N-1`).  These constraint
 columns must be set exactly once to get unique placements in the X and Y coordinates.  Each
-diagonal is assigned sequentially to an additional `2N-1` columns.  Note that the diagnonal
-constraints are declared as optionals for Tarantella, which means they can be set once or
-not at all for a solution.
+diagonal constraint is assigned sequentially to an additional `2N-1` columns.  Note that the
+diagnonal constraints are declared as optionals for Tarantella, which means they can be set
+once or not at all for a solution.
 
 The solutions returned by `dancing-links` are row numbers from the original contraints.  We
 can convert back to Y coordinates using `(rem ROW N)`.  The final result follows the
@@ -74,9 +76,14 @@ Execution time from [Criterium][5] for the Eight Queens puzzle benchmark on my o
 | queens         |    928.8 µs |
 | fastest-queens |    383.0 µs |
 
+
+So the Tarantella solution is on par with my previous `queens` solution, which I thought was
+moderately clever.  The Tarentalla approach is also much simpler code than my bit-twiddling
+`fastest-queens`.  I highly recommend considering Tarantella for your future puzzle solving
+needs.  It's nice to have someone else do the hard work for you.
+
 -----
 
 You can find my updated [Queens][6] sample code on GitHub.
 
 [6]: https://github.com/miner/queens
-
