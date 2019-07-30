@@ -56,8 +56,8 @@ for the queens.  The X coordinates are implied by the index order.
         y (range n)]
     [x (+ n y) (+ n n x y) (+ (* 5 n) (- x y 2))]))
 
-;; The rows in a solution aren't guaranteed in any particular order so we need to sort first,
-;; then decode queen placements from the row numbers.
+;; The rows in a solution aren't guaranteed in any particular order so we
+;; need to sort first, then decode queen placements from the row numbers.
 (defn solve-queens [n]
   (map (fn [sol] (mapv #(rem % n) (sort sol)))
        (t/dancing-links (queens-constraints n)
