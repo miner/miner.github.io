@@ -70,19 +70,20 @@ Execution time from [Criterium][5] for the Eight Queens puzzle benchmark on my o
 
 [5]: https://github.com/hugoduncan/criterium/
 
+-----
+
 | Function       |    Time     |
 | --------       |    -------: |
 | solve-queens   |    931.9 µs |
 | queens         |    928.8 µs |
 | fastest-queens |    383.0 µs |
 
+-----
 
 So the Tarantella solution is on par with my previous `queens` solution, which I thought was
 moderately clever.  The Tarentalla approach is also much simpler code than my bit-twiddling
 `fastest-queens`.  I highly recommend considering Tarantella for your future puzzle solving
 needs.  It's nice to have someone else do the hard work for you.
-
------
 
 You can find my updated [Queens][6] sample code on GitHub.
 
