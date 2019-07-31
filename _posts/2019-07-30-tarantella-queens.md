@@ -72,11 +72,19 @@ Execution time from [Criterium][5] for the Eight Queens puzzle benchmark on my o
 
 -----
 
-| Function       |    Time     |
-| --------       |    -------: |
-| solve-queens   |    931.9 µs |
-| queens         |    928.8 µs |
-| fastest-queens |    383.0 µs |
+| (Function N)       |    Time     |
+| --------           |    -------: |
+| (solve-queens 8)   |    931.9 µs |
+| (queens 8)         |    928.8 µs |
+| (fastest-queens 8) |    383.0 µs |
+|                    |             |
+| (solve-queens 13)   |     1.5 s |
+| (queens 13)         |     2.3 s |
+| (fastest-queens 13) |     0.9 s |
+|                    |             |
+| (solve-queens 14)   |     9.4 s |
+| (queens 14)         |     n/a |
+| (fastest-queens 14) |    14.7 s |
 
 -----
 
@@ -84,6 +92,9 @@ So the Tarantella solution is on par with my previous `queens` solution, which I
 moderately clever.  The Tarentalla approach is also much simpler code than my bit-twiddling
 `fastest-queens`.  I highly recommend considering Tarantella for your future puzzle solving
 needs.  It's nice to have someone else do the hard work for you.
+
+*Update*: My original benchmarking was for N=8.  I added some timings for larger values of
+ N.  On my machine, at N=14, the Tarantella version is the clear performance winner.
 
 You can find my updated [Queens][6] sample code on GitHub.
 
