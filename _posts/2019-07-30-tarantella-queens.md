@@ -42,7 +42,7 @@ diagonal constraint is assigned sequentially to an additional `2N-1` columns.  N
 diagnonal constraints are declared as optionals for Tarantella, which means they can be set
 once or not at all for a solution.
 
-The solutions returned by `dancing-links` are row numbers from the original contraints.  We
+The solutions returned by `dancing-links` are row numbers from the original constraints.  We
 can convert back to Y coordinates using `(rem ROW N)`.  The final result follows the
 convention used in my other N-Queens solutions.  Each solution is a vector of Y coordinates
 for the queens.  The X coordinates are implied by the index order.
