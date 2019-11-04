@@ -188,6 +188,7 @@ Execution times from [Criterium][8] on my oldish iMac.
 [8]: https://github.com/hugoduncan/criterium/
 
 -----
+
 | Function  | Time (ms) |
 | -----     |  -----: |
 | smt-8     |    1572 |
@@ -196,6 +197,7 @@ Execution times from [Criterium][8] on my oldish iMac.
 | smt-8forh |      31 |
 | smt-8x    |      25 |
 | smt-8arr  |       7 |
+
 -----
 
 
