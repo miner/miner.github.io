@@ -117,10 +117,10 @@ information.
 
 ```
 
-Adding the type hints and using the unchecked math, squeezes a bit more performance out of
-the same code.  I measured better than 20% increase in performance, but remember this code
-is doing simple arithmetic and almost no "business logic" so we're mostly measuring what
-would normally be considered overhead costs.
+Adding the type hints squeezes a bit more performance out of the same code.  I measured
+better than 20% increase in performance, but remember this code is doing simple arithmetic
+and almost no "business logic" so we're mostly measuring what would normally be considered
+overhead costs.
 
 Clojure has another feature called [Transducers][5] that can improve performance for chains
 of operations over input sequences.  Here's a slightly complicated implementation using
