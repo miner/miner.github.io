@@ -25,14 +25,16 @@ minister that should *conjobble* matters of state with tumblers, and confer poli
 
 ## Clojure links
 
-Clojure is modern *LISP* for the Java VM.
+Clojure is modern *LISP* for the Java VM.  ClojureScript is a Clojure variant that compiles to
+JavaScript and runs in your browser.
 
-* [Clojure.org](http://clojure.org)
+* [Clojure.org](https://clojure.org/)
+* [ClojureScript.org](https://clojurescript.org/)
 * [Planet Clojure](http://planet.clojure.in/)
 * [ClojureDocs](http://clojuredocs.org)
+* [Clojure-Doc](http://clojure-doc.org/)
+* [Inside Clojure](http://insideclojure.org/)
 * [Clojure for the Brave and True](http://www.braveclojure.com)
-* [Grimoire](http://conj.io)
-* [Cross CLJ](http://crossclj.info)
 * [Clojars](http://clojars.org)
 
 ## Steve Miner
