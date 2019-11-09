@@ -11,15 +11,15 @@ permalink: /about/
 `conj` - a Clojure function to conjoin an item to a collection.
 
 `to conjobble` *verb active* \[from *con*, together, and *jobbernol*, the head.\]  To concert; to
-settle; to discuss.  A low cant word.  *Example usage*: What would a body think of a
-minister that should *conjobble* matters of state with tumblers, and confer politicks with tinkers?
+settle; to discuss.  A low cant word.  -- [Samuel Johnson][1]
 
--- [Samuel Johnson][1]
+*Example usage*:  What would a body think of a minister that should __conjobble__ matters of
+state with tumblers, and confer politicks with tinkers? -- [Roger L'Estrange][2]
 
 ----
 
-[1]: http://johnsonsdictionaryonline.com/?page_id=7070&i=448 "A Dictionary of the English Language"
-
+[1]: https://en.wikipedia.org/wiki/Samuel_Johnson
+[2]: https://en.wikipedia.org/wiki/Roger_L%27Estrange
 
 
 
