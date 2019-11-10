@@ -129,7 +129,7 @@ faster than appending to a vector.  It runs the `range` calculation in reverse t
 for the natural addition at the head of the output list.  I have to admit that the slight
 performance improvement isn't worth increasing the obscurity of the code as I've done in
 this case.  However, the general point is that transducers are often a win for performance
-and clarity.  In my tests, the this transducer version is marginally faster than the
+and clarity.  In my tests, this transducer version is marginally faster than the
 previous solution.
 
 [5]: https://clojure.org/reference/transducers
