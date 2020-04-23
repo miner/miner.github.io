@@ -179,7 +179,7 @@ earlier, I would not normally resort to Java arrays unless I had to inter-operat
 code.
 
 The big win in this case was avoiding object creation for partitions that were immediately
-discarded.  I think most peole would prefer the `for` comprehension as shown in my
+discarded.  I think most people would prefer the `for` comprehension as shown in my
 `smt-8for` example.  That version gave respectable peformance from clean code (IMHO).
 
 
