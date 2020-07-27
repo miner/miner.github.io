@@ -54,14 +54,14 @@ for the queens.  The X coordinates are implied by the index order.
 (defn queens-constraints [n]
   (for [x (range n)
         y (range n)]
-    [x (+ n y) (+ n n x y) (+ (* 5 n) (- x y 2))]))
+    #{x (+ n y) (+ n n x y) (+ (* 5 n) (- x y 2))}))
 
 ;; The rows in a solution aren't guaranteed in any particular order so we
 ;; need to sort first, then decode queen placements from the row numbers.
 (defn solve-queens [n]
   (map (fn [sol] (mapv #(rem % n) (sort sol)))
        (t/dancing-links (queens-constraints n)
-                        :optional-columns (range (* 2 n) (- (* 6 n) 2)))))
+                        :optional-columns (set (range (* 2 n) (- (* 6 n) 2))))))
 
 ```
 
@@ -97,6 +97,9 @@ future puzzle solving needs.  It's nice to have someone else do the hard work fo
 
 *Update*: My original benchmarking was for N=8.  I added some timings for larger values of
 N.  On my machine, at N=14, the Tarantella version is the clear performance winner.
+
+*Update 2*: I corrected the code samples to use sets for constraints where I had previously
+shown vectors.  The results are basically the same.
 
 You can find my updated [Queens][6] sample code on GitHub.
 
