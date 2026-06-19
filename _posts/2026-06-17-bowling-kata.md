@@ -91,7 +91,7 @@ Here is my bowling **score** implementation.
 (defn score [game]
   (let [bv (mapv (fn [c] (let [x (- (long c) (long \0))] (case x 40 10 -3 0 x)))
                  (str/replace game " " ""))]
-    ;; note X map to 40, \ to -1, - to -3.  The test for a spare mark is neg?
+    ;; note X maps to 40, \ to -1, - to -3.  The test for a spare mark is neg?
     (peek
      (reduce-kv (fn [[fc sc] i b]
                   (if (zero? fc)
